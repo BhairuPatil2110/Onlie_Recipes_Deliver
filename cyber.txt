@@ -1,0 +1,1577 @@
+<!-- ======================================================================== 
+                                SIGN-IN section starts here 
+    ========================================================================= -->
+
+
+        <div class="sign-in-wrapper">
+
+            <div class="forms-container">
+
+                <div class="sign-in-usr-admn">
+
+                    <!-- ======================== user login form ======================== -->
+
+                    <form action="./index.html" class="user-sign-in-form" autocomplete="off">
+
+                        <h2 class="title">Sign In</h2>
+
+                        <div class="input-field">
+
+                            <i class="fas fa-user"></i>
+
+                            <input type="text" name="username" placeholder="Username">
+
+                        </div>
+
+                        <div class="input-field">
+
+                            <i class="fas fa-lock"></i>
+
+                            <input type="password" name="password" placeholder="Password">
+
+                        </div>
+
+                        <input type="submit" value="Login" class="btn solid">
+                        
+                        <a class="forget-pass" href="#">
+                            
+                            forget password?
+                            
+                        </a>
+
+                        <span class="or">
+                            ------------------------- OR ------------------------- 
+                        </span>
+
+                        <p class="social-text">Sign in with social platform</p>
+
+                        <div class="social-media">
+
+                            <a href="#" class="social-icons">
+
+                                <i class="fa-brands fa-facebook-f"></i>
+
+                            </a>
+                            
+                            <a href="#" class="social-icons">
+
+                                <i class="fa-brands fa-twitter"></i>
+
+                            </a>
+                            
+                            <a href="#" class="social-icons">
+
+                                <i class="fa-brands fa-google"></i>
+
+                            </a>
+                            
+                            <a href="#" class="social-icons">
+
+                                <i class="fa-brands fa-linkedin-in"></i>
+
+                            </a>
+
+                        </div>
+
+                        <a class="sign-up-link-text" href="./sign-up.html">
+
+                            Don't hava an account? Sign Up
+
+                        </a>
+
+                    </form>
+
+
+
+                    <!-- ======================== admin login form ======================== -->
+                    
+                    <form action="./index.html" class="admin-sign-in-form" autocomplete="off">
+
+                        <h2 class="title">Sign In</h2>
+
+                        <div class="input-field">
+
+                            <i class="fas fa-user"></i>
+
+                            <input type="text" name="username" placeholder="Username">
+
+                        </div>
+
+                        <div class="input-field">
+
+                            <i class="fas fa-lock"></i>
+
+                            <input type="password" name="password" placeholder="Password">
+
+                        </div>
+
+                        <input type="submit" value="Login" class="btn solid">
+                        
+                        <a class="forget-pass" href="#">
+                            
+                            forget password?
+                            
+                        </a>
+
+
+                    </form>
+            
+                </div>
+
+            </div>
+
+
+            
+
+            <div class="panels-container">
+
+
+                <!-- ===== left panel for admin login button ===== -->
+                <div class="panel left-panel">
+
+                    <div class="content">
+
+                        <h3 class="title">
+
+                            Are you <strong class="title">Admin</strong>?
+
+                        </h3>
+
+                        <p>
+
+                            If you are admin, then please click on below button<br>to Login
+
+                        </p>
+                        
+                        <button class="btn transparent" id="admin-sign-in-btn">Sign In</button>
+
+                        <img class="img" src="./images/sign-in-up-img/chef.svg" alt="">
+
+                    </div>
+
+                </div>
+
+
+                <!-- ===== right panel for user login button ===== -->
+                <div class="panel right-panel">
+
+                    <div class="content">
+
+                        <h3 class="title">
+
+                            Are you <strong class="title">User</strong>?
+
+                        </h3>
+
+                        <p>
+
+                            If you are user, then please click on below button<br>to Login
+
+                        </p>
+                        
+                        <button class="btn transparent" id="user-sign-in-btn">Sign In</button>
+
+                        <img class="img" src="./images/sign-in-up-img/cooking.svg" alt="">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+<!-- ======================================================================== 
+                            SIGN-IN section ends here 
+========================================================================= -->
+
+
+
+
+<!-- ======================================================================== 
+                                SIGN-UP section starts here 
+    ========================================================================= -->
+
+
+
+        
+    <div class="sign-up-wrapper">
+
+        <div class="sign-up-form-container">
+
+            <div class="sign-up-user">
+
+                <!-- ======================== user SIGN UP form ======================== -->
+
+                <h2 class="title">Sign Up</h2>
+
+                <form action="./index.html" class="user-sign-up-form" autocomplete="off">
+
+
+                    <div class="grid-inputs">
+
+                        <!-- first name -->
+                        <div class="input-field">
+
+                            <i class="fas fa-user"></i>
+
+                            <input type="text" name="fname" placeholder="First Name">
+
+                        </div>
+
+                        <!-- last name -->
+                        <div class="input-field">
+
+                            <i class="fas fa-user"></i>
+
+                            <input type="text" name="lname" placeholder="Last Name">
+
+                        </div>
+
+                        <!-- phone -->
+                        <div class="input-field">
+
+                            <i class="fas fa-phone"></i>
+
+                            <input type="tel" name="phone" placeholder="Phone">
+
+                        </div>
+
+                        <!-- email -->
+                        <div class="input-field">
+
+                            <i class="fas fa-envelope fa-flip"></i>
+
+                            <input type="email" name="email" placeholder="Email">
+
+                        </div>
+
+                        <!-- password -->
+                        <div class="input-field">
+                            
+                            <i class="fas fa-lock"></i>
+                            
+                            <input type="password" name="pwd" placeholder="Password">
+                            
+                        </div>
+                        
+                        <!-- confirm password -->
+                        <div class="input-field">
+
+                            <i class="fas fa-lock"></i>
+
+                            <input type="password" name="conf-pwd" placeholder="Confirm Password">
+
+                        </div>
+
+                    </div>
+
+                    <div class="flex-inputs">
+
+                        <div class="t-c">
+
+                            <input type="checkbox" name="t-c" id="t-c" required> I agree with Terms & Conditions
+    
+                        </div>
+    
+                        <input type="submit" value="Create Account" class="btn solid">
+    
+    
+    
+                        <span class="or">
+                            ------------------------- OR ------------------------- 
+                        </span>
+    
+    
+    
+                        <p class="social-text">Sign Up with social platform</p>
+    
+                        <div class="social-media">
+    
+                            <a href="#" class="social-icons">
+    
+                                <i class="fa-brands fa-facebook-f"></i>
+    
+                            </a>
+                            
+                            <a href="#" class="social-icons">
+    
+                                <i class="fa-brands fa-twitter"></i>
+    
+                            </a>
+                            
+                            <a href="#" class="social-icons">
+    
+                                <i class="fa-brands fa-google"></i>
+    
+                            </a>
+                            
+                            <a href="#" class="social-icons">
+    
+                                <i class="fa-brands fa-linkedin-in"></i>
+    
+                            </a>
+    
+                        </div>
+    
+    
+    
+                        <a class="sign-up-link-text" href="./sign-in.html">
+    
+                            Already hava an account? Sign In
+    
+                        </a>
+
+                    </div>
+
+                </form>
+        
+            </div>
+
+        </div>
+
+
+
+
+        <div class="panels-container">
+
+            <!-- ===== left panel for admin login button ===== -->
+            <div class="panel left-panel">
+
+                <div class="content">
+
+                    <h3 class="title">
+
+                        New Here?
+
+                    </h3>
+
+                    <p>
+
+                        Join Us,<br>
+                        Be one of us, By just sign up
+
+                    </p>
+
+                    <img class="img" src="./images/sign-in-up-img/barbecue.svg" alt="">
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    
+
+
+    <!-- ======================================================================== 
+                                SIGN-UP section ends here 
+    ========================================================================= -->
+
+
+
+
+
+    <!-- ======================================================================== 
+                                    Contact-Us section starts here 
+        ========================================================================= -->
+
+
+        <div class="container">
+            
+            <span class="big-circle"></span>
+            
+            <img src="./images/contact-img/shape.png" class="square" alt="" />
+
+
+            <div class="form">
+            
+                <div class="contact-info">
+            
+                    <h3 class="title">Let's get in touch</h3>
+
+                    <hr>
+      
+
+                    <div class="info">
+                
+                        <div class="information">
+                
+                            <img src="./images/contact-img/email.png" class="icon" alt="" />
+                
+                            <p>tjnid3710@gmail.com</p>
+                
+                        </div>
+                
+                        <div class="information">
+                
+                            <img src="./images/contact-img/phone.png" class="icon" alt="" />
+                
+                            <p>123-456-789</p>
+                
+                    </div>
+                
+                </div>
+      
+                
+                <div class="social-media">
+                
+                    <div class="social-icons">
+                
+                        <a href="#">
+                
+                            <i class="fab fa-facebook-f fa-2x" style="color: #fff;"></i>
+                
+                        </a>
+                
+                        <a href="#">
+                
+                            <i class="fab fa-twitter fa-2x" style="color: #fff;"></i>
+                
+                        </a>
+                
+                        <a href="#">
+                
+                            <i class="fab fa-instagram fa-2x" style="color: #fff;"></i>
+                
+                        </a>
+                
+                        <a href="#">
+                
+                            <i class="fab fa-linkedin-in fa-2x" style="color: #fff;"></i>
+                
+                        </a>
+                
+                    </div>
+                
+                </div>
+
+
+                <div class="map">
+
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3829.5162804292986!2d74.52770982509399!3d16.296543784416393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc094f166cf6d71%3A0xfd9fba3e675c5744!2sNidasoshi%20Gate%20Bus%20Stop!5e0!3m2!1sen!2sin!4v1687873138980!5m2!1sen!2sin" width="450" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    
+
+
+                </div>
+
+              
+            </div>
+      
+            
+            <div class="contact-form">
+            
+                <span class="circle one"></span>
+            
+                <span class="circle two"></span>
+      
+                <form action="index.html" autocomplete="off">
+            
+                    <h3 class="title">Contact us</h3>
+            
+                    <div class="input-container">
+            
+                        <input type="text" name="name" id="username" class="input" />
+            
+                        <label for="username">Username</label>
+            
+                        <span>Username</span>
+            
+                    </div>
+            
+                    <div class="input-container">
+            
+                        <input type="email" name="email" id="email" class="input" />
+            
+                        <label for="email">Email</label>
+            
+                        <span>Email</span>
+            
+                    </div>
+            
+                    <div class="input-container">
+            
+                        <input type="tel" name="phone" id="tel" class="input" />
+            
+                        <label for="tel">Phone</label>
+            
+                        <span>Phone</span>
+            
+                    </div>
+            
+                    <div class="input-container textarea">
+            
+                        <textarea name="message" id="msg" class="input"></textarea>
+            
+                        <label for="msg">Message</label>
+            
+                        <span>Message</span>
+            
+                    </div>
+            
+                    <input type="submit" value="Send" class="contact-btn" />
+            
+                </form>
+            
+            </div>
+            
+        </div>
+        
+    </div>
+
+
+        <!-- ======================================================================== 
+                                    Contact-Us section ends here 
+        ========================================================================= -->
+
+
+
+
+/*  =========================================================================
+                            CONTACT-US styling end
+=========================================================================== */
+
+.container {
+    position: fixed;
+    width: 100%;
+    height: 60rem;
+    margin-top: 4rem;
+    padding: 2rem;
+    background-color: var(--body-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    width: 100%;
+    max-width: 100rem;
+    height: 50rem;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: var(--form-box-shadow);
+    z-index: 100;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+/*-------------- "contact-form" div styling starts here....
+---------------------- */
+  
+.contact-form {
+    background-color: var(--contact-form-green-color);
+    position: relative;
+}
+  
+.circle {
+    border-radius: 50%;
+    background: linear-gradient(135deg, transparent 20%, #149279);
+    position: absolute;
+}
+  
+.circle.one {
+    width: 13rem;
+    height: 13rem;
+    top: 40rem;
+    right: 15rem;
+}
+  
+.circle.two {
+    width: 8rem;
+    height: 8rem;
+    top: .2rem;
+    right: 5rem;
+}
+  
+.contact-form:before {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-color: var(--contact-form-green-color);
+    transform: rotate(45deg);
+    top: 50px;
+    left: -13px;
+}
+  
+form {
+    padding: 2.3rem 2.2rem;
+    z-index: 10;
+    overflow: hidden;
+    position: relative;
+}
+  
+.title {
+    color: #fff;
+    font-weight: 500;
+    font-size: 2.7rem;
+    margin-bottom: 1rem;
+}
+  
+.input-container {
+    position: relative;
+    margin: 2rem 0;
+}
+  
+.input {
+    width: 100%;
+    outline: none;
+    border: 2px solid #fafafa;
+    background: none;
+    padding: 1rem 1.5rem;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+  
+textarea.input {
+    padding: 0.8rem 1.2rem;
+    min-height: 150px;
+    border-radius: 22px;
+    resize: none;
+    overflow-y: auto;
+}
+  
+.input-container label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    padding: 0 0.4rem;
+    color: #fafafa;
+    font-size: 1.5rem;
+    font-weight: 400;
+    pointer-events: none;
+    z-index: 1000;
+    transition: 0.5s;
+}
+  
+.input-container.textarea label {
+    top: 1.5rem;
+    transform: translateY(0);
+}
+  
+.contact-btn {
+    padding: 0.6rem 1.3rem;
+    background-color: #fff;
+    border: 2px solid #fafafa;
+    font-size: 1.5rem;
+    color: var(--contact-form-green-color);
+    border-radius: 2.5rem;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0;
+}
+  
+.contact-btn:hover {
+    background-color: transparent;
+    color: #fff;
+}
+  
+.input-container span {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    transform: translateY(-50%);
+    font-size: 1.4rem;
+    padding: 0 0.4rem;
+    color: transparent;
+    pointer-events: none;
+    z-index: 500;
+}
+  
+.input-container span:before,
+.input-container span:after {
+    content: "";
+    position: absolute;
+    width: 10%;
+    opacity: 0;
+    transition: 0.3s;
+    height: 5px;
+    background-color: var(--contact-form-green-color);
+    top: 50%;
+    transform: translateY(-50%);
+}
+  
+.input-container span:before {
+    left: 50%;
+}
+  
+.input-container span:after {
+    right: 50%;
+}
+  
+.input-container.focus label {
+    top: 0;
+    transform: translateY(-50%);
+    left: 25px;
+    font-size: 1.4rem;
+}
+  
+.input-container.focus span:before,
+.input-container.focus span:after {
+    width: 50%;
+    opacity: 1;
+}
+
+
+
+/*----------------- "contact-info" div styling starts here.... 
+----------------------*/
+  
+.contact-info {
+    padding: 2.3rem 2.2rem;
+    position: relative;
+}
+  
+.contact-info .title {
+    color: var(--contact-form-green-color);
+}
+  
+/* .text {
+    color: #333;
+    margin: 1.5rem 0 2rem 0;
+} */
+
+/* .contact-info hr {
+    width: 40%;
+    border: black;
+} */
+  
+.information {
+    display: flex;
+    color: #555;
+    margin: 0.7rem 0;
+    align-items: center;
+    font-size: 1.5rem;
+}
+  
+.information .icon {
+    width: 28px;
+    margin: 1rem 1.2rem 1rem 0;
+}
+
+.information p {
+    text-transform: none;
+}
+  
+.social-icons {
+    padding: 2rem 0 0 0;
+}
+  
+.social-icons p {
+    color: #333;
+}
+  
+.social-icons {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.social-icons a {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, var(--contact-form-green-color), #149279);
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 1.5rem 3rem 0;
+    transition: 0.3s;
+}
+
+.social-icons a i {
+    padding: .7rem 0 1rem 0;
+}
+  
+.social-icons a:hover {
+    transform: scale(1.1);
+}
+  
+.contact-info:before {
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 100px;
+    border: 22px solid var(--contact-form-green-color);
+    border-radius: 50%;
+    bottom: -77px;
+    right: 50px;
+    opacity: 0.3;
+}
+  
+.big-circle {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #1cd4af, #159b80);
+    bottom: 50%;
+    right: 50%;
+    transform: translate(-40%, 38%);
+}
+  
+.big-circle:after {
+    content: "";
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    background-color: #fafafa;
+    border-radius: 50%;
+    top: calc(50% - 180px);
+    left: calc(50% - 180px);
+}
+
+.map {
+    margin: 0;
+    padding: 0;
+    border: .1rem solid black;
+    border-radius: 1rem;
+}
+
+.map iframe{
+    border-radius: 1rem;
+}
+
+  
+.square {
+    position: absolute;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(181%, 11%);
+    opacity: 0.2;
+}
+  
+@media (max-width: 850px) {
+    .form {
+      grid-template-columns: 1fr;
+    }
+  
+    .contact-info:before {
+      bottom: initial;
+      top: -75px;
+      right: 65px;
+      transform: scale(0.95);
+    }
+  
+    .contact-form:before {
+      top: -13px;
+      left: initial;
+      right: 70px;
+    }
+  
+    .square {
+      transform: translate(140%, 43%);
+      height: 2.5rem;
+    }
+  
+    .big-circle {
+      bottom: 75%;
+      transform: scale(0.9) translate(-40%, 30%);
+      right: 50%;
+    }
+  
+    .text {
+      margin: 1rem 0 1.5rem 0;
+    }
+  
+    .social-media {
+      padding: 1.5rem 0 0 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 1.5rem;
+    }
+  
+    .contact-info:before {
+      display: none;
+    }
+  
+    .square,
+    .big-circle {
+      display: none;
+    }
+  
+    form,
+    .contact-info {
+      padding: 1.7rem 1.6rem;
+    }
+  
+    .text,
+    .information,
+    .social-media p {
+      font-size: 0.8rem;
+    }
+  
+    .title {
+      font-size: 1.15rem;
+    }
+  
+    .social-icons a {
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+    }
+  
+    .icon {
+      width: 23px;
+    }
+  
+    .input {
+      padding: 0.45rem 1.2rem;
+    }
+  
+    .contact-btn {
+      padding: 0.45rem 1.2rem;
+    }
+}
+
+
+
+/*  =========================================================================
+                            CONTACT-US styling end
+=========================================================================== */
+/* 
+
+
+
+
+
+
+
+
+/*  =========================================================================
+                    User SIGN-UP styling starts here...n
+=========================================================================== */
+
+
+.sign-up-wrapper {
+    position: relative;
+    width: 80%;
+    margin: 3.2rem 0 .5rem 15rem;
+    min-height: 80vh;
+    background-color: var(--body-bg-color);
+    box-shadow: 1px 3px 17px 2px rgba(0,0,0,0.66);
+    overflow: hidden;
+    z-index: 500;
+}
+
+.sign-up-wrapper .sign-up-form-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.sign-up-user form .grid-inputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.sign-up-user form .flex-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sign-up-user .title{
+    font-size: 3.5rem;
+    color: var(--contact-form-green-color);
+    margin: 2rem 0 -1rem 1rem;
+    padding-left: 45%;
+}
+
+
+.sign-up-user form .grid-inputs .input-field {
+    max-width: 24rem;
+    width: 100%;
+    height: 4.5rem;
+    background-color: #fff;
+    margin: 1rem 0 1rem 6rem;
+    border: 1.5px solid silver;
+    border-radius: 5.5rem;
+
+    display: grid;
+    /* to seperate the icons and input fields */
+    grid-template-columns: 15% 85%;
+
+    padding: 0 .4rem;
+}
+
+.sign-up-user form .grid-inputs .input-field i {
+    text-align: center;
+    line-height: 4.5rem;
+    color: #939292;
+    font-size: 1.5rem;
+}
+
+
+.sign-up-user form .grid-inputs .input-field input
+{
+    background: none;
+    line-height: 2;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #333;
+    text-transform: none;
+}
+
+.sign-up-user form .grid-inputs .input-field input::placeholder {
+    color: #939292;
+    font-weight: 500;
+}
+
+.sign-up-user form .flex-inputs .t-c {
+    margin: 2rem 21rem 0 0;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-transform: none;
+    color: #939292;
+}
+
+.sign-up-user form .flex-inputs .btn {
+    width: 18rem;
+    height: 4.3rem;
+    border-radius: 3.5rem;
+    cursor: pointer;
+    background-color: var(--contact-form-green-color);
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    margin: 1rem 0 0 8rem;
+    text-transform: none;
+}
+
+.sign-up-user form .flex-inputs .btn:hover {
+    background-color: #fff;
+    color: var(--contact-form-green-color);
+    border: 1px solid silver;
+    font-size: 1.8rem;
+}
+
+.sign-up-user form .flex-inputs .or {
+    margin: 1rem 0 0 8rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #939292;
+}
+
+.sign-up-user form .flex-inputs .social-text {
+    margin: 1rem 0 0 8rem;
+    font-size: 1.2rem;
+    color: #575555;
+}
+
+.sign-up-user form .flex-inputs .social-media {
+    display: flex;
+    margin-left: 8rem;
+}
+
+.sign-up-user form .flex-inputs .social-media .social-icons {
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.7rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: .1rem 1rem .2rem;
+    transition: .5s;
+}
+
+.sign-up-user form .flex-inputs .social-media .social-icons i {
+    font-size: 1.7rem;
+    color: rgb(61, 60, 60);
+}
+
+.sign-up-user form .flex-inputs .social-media .social-icons i:hover {
+    color: var(--contact-form-green-color);
+    border: none;
+}
+
+.sign-up-user form .flex-inputs .sign-up-link-text {
+    margin: 3rem 0 1rem 8rem;
+    font-size: 1.1rem;
+    text-transform: none;
+    text-decoration: underline;
+} 
+
+.panels-container .left-panel .content .title {
+    margin-bottom: 1rem;
+}
+
+.panels-container .left-panel .content p {
+    margin-bottom: 2rem;
+}
+
+
+/* ========== code to make image left side and form one side ========== */
+
+.sign-up-user {
+    position: absolute;
+    top: 5%;
+    left: 75%;
+    transform: translate(-55%, 1%);
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr;
+    z-index: 5;
+    transition: 1s .7s ease-in-out; 
+}
+
+
+.sign-up-wrapper::before {
+    content: '';
+    position: absolute;
+    width: 200rem;
+    height: 200rem;
+    border-radius: 50% 25%;
+    background: linear-gradient(-45deg, #5edab9, #32f9bd);
+    top: -10%;
+    right: 48%;
+    transform: translateY(-50%);
+    z-index: 6;
+    transition: 1.8s;
+}
+
+
+
+
+
+/*  =========================================================================
+                    User SIGN-UP styling end
+=========================================================================== */
+
+
+
+
+
+
+
+
+
+
+/*=========================================================================
+                    SIGN-IN (user & admin) styling starts
+=========================================================================== */
+
+
+
+.sign-in-wrapper {
+    position: relative;
+    width: 80%;
+    margin: 3.2rem 0 .5rem 15rem;
+    min-height: 80vh;
+    background-color: var(--body-bg-color);
+    box-shadow: 1px 3px 17px 2px rgba(0,0,0,0.66);
+    overflow: hidden;
+}
+
+.sign-in-wrapper .forms-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.sign-in-usr-admn form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: .2s ease-in-out .7s;
+}
+
+.sign-in-usr-admn form.user-sign-in-form .title,
+.sign-in-usr-admn form.admin-sign-in-form .title {
+    font-size: 3.5rem;
+    color: var(--contact-form-green-color);
+    margin-bottom: 1rem;
+}
+
+.sign-in-usr-admn form.user-sign-in-form .input-field,
+.sign-in-usr-admn form.admin-sign-in-form .input-field {
+    max-width: 38rem;
+    width: 100%;
+    height: 5.5rem;
+    background-color: #fff;
+    margin: 1rem 0;
+    border: 1.5px solid silver;
+    border-radius: 5.5rem;
+
+    display: grid;
+    /* to seperate the icons and input fields */
+    grid-template-columns: 15% 85%;
+
+    padding: 0 .4rem;
+}
+
+.sign-in-usr-admn form.user-sign-in-form .input-field i,
+.sign-in-usr-admn form.admin-sign-in-form .input-field i {
+    text-align: center;
+    line-height: 5.5rem;
+    color: #939292;
+    font-size: 1.5rem;
+}
+
+.sign-in-usr-admn form.user-sign-in-form .input-field input,
+.sign-in-usr-admn form.admin-sign-in-form .input-field input {
+    background: none;
+    line-height: 2;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #333;
+}
+
+.sign-in-usr-admn form.user-sign-in-form .input-field input::placeholder,
+.sign-in-usr-admn form.admin-sign-in-form .input-field input::placeholder {
+    color: #939292;
+    font-weight: 500;
+}
+
+.sign-in-usr-admn form.user-sign-in-form .btn,
+.sign-in-usr-admn form.admin-sign-in-form .btn {
+    width: 12rem;
+    height: 4.5rem;
+    border-radius: 4.5rem;
+    cursor: pointer;
+    background-color: var(--contact-form-green-color);
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.sign-in-usr-admn form.user-sign-in-form a.forget-pass,
+.sign-in-usr-admn form.admin-sign-in-form a.forget-pass {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: #575555;
+}
+
+.sign-in-usr-admn form.user-sign-in-form .or {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #939292;
+}
+
+.sign-in-usr-admn form.user-sign-in-form .btn:hover,
+.sign-in-usr-admn form.admin-sign-in-form .btn:hover {
+    background-color: #fff;
+    color: var(--contact-form-green-color);
+    border: 1px solid silver;
+    transform: scale(1.05);
+}
+
+.sign-in-usr-admn form.user-sign-in-form .social-text {
+    padding: 1rem 0;
+    font-size: 1.45rem;
+    color: #575555;
+}
+
+.sign-in-usr-admn .social-media {
+    display: flex;
+}
+
+.sign-in-usr-admn .social-media .social-icons {
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.7rem;
+    margin: .45rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: .1rem 1rem .2rem;
+    transition: .5s;
+}
+
+.sign-in-usr-admn .social-media .social-icons i {
+    font-size: 1.7rem;
+    color: rgb(61, 60, 60);
+}
+
+.sign-in-usr-admn .social-media .social-icons:hover,
+.sign-in-usr-admn .social-media .social-icons i:hover {
+    background-color: var(--contact-form-green-color);
+    color: #fff;
+    border: none;
+}
+
+.sign-in-usr-admn form.user-sign-in-form a.sign-up-link-text {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    text-transform: none;
+    text-decoration: underline;
+}
+
+
+
+/* -------------------- code to stack both forms on each other -------------------- */
+
+.sign-in-usr-admn {
+    position: absolute;
+    top: 5%;
+    left: 75%;
+    transform: translate(-50%, 5%);
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr;
+    z-index: 5;
+    transition: 1s .7s ease-in-out;
+}
+
+/* code to get each form starting from column1, row1 to column2, row2 */
+.sign-in-usr-admn form {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    overflow: hidden;
+}
+
+
+/* -------------------- code to hide admin sign in page -------------------- */
+
+form.user-sign-in-form {
+    z-index: 2;
+}
+
+form.admin-sign-in-form {
+    z-index: 1;
+    opacity: 0;
+}
+
+
+.sign-in-wrapper::before {
+    content: '';
+    position: absolute;
+    width: 200rem;
+    height: 200rem;
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #5edab9, #32f9bd);
+    top: -10%;
+    right: 48%;
+    transform: translateY(-50%);
+    z-index: 6;
+    transition: 1.8s;
+}
+
+
+/* ============ panel container starts here ============ */
+
+
+.panel .content .img {
+    width: 100%;
+    transition: 1.5s .4s ease-in-out;
+}
+
+.panels-container {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    text-align-last: center;
+    margin-top: -9rem;
+    z-index: 7;
+}
+
+.panels-container .left-panel {
+    padding: 3rem 17% 2rem 12%;
+    pointer-events: all;
+}
+
+.panels-container .right-panel {
+    padding: 3rem 12% 2rem 17%;
+    pointer-events: none;
+}
+
+.panel .content {
+    color: #fff;
+    transition: .9s .6s ease-in-out;
+}
+
+.panel .content .title {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    line-height: 2;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+}
+
+.panel .content p {
+    font-size: 1.7rem;
+    text-transform: none;
+    color: #fff;
+    margin: 1rem 0;
+}
+
+.panel .content .btn.transparent {
+    margin: 0;
+    color: #fff;
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 4rem;
+    width: 12rem;
+    height: 4.1rem;
+    font-weight: bolder;
+    font-size: 1.7rem;
+    margin: 1rem 0 0 16rem;
+}
+
+#user-sign-in-btn {
+    margin-bottom: 4rem;
+}
+
+.panel .content .btn:hover {
+    background-color: #fff;
+    color: #149279;
+    border: 1px solid silver;
+    transform: scale(1.05);
+}
+
+
+.right-panel .content,
+.right-panel .img {
+    transform: translateX(80rem);
+}
+
+
+/* ---------------- ANIMATIONS CODE FOR CHANGING FORMS ---------------- */
+
+.sign-in-wrapper.form-animation::before {
+    transform: translate(100%, -50%);
+    right: 52%;
+}
+
+.sign-in-wrapper.form-animation .left-panel .img,
+.sign-in-wrapper.form-animation .left-panel .content {
+    transform: translate(-80rem);
+
+}
+
+.sign-in-wrapper.form-animation .right-panel .content,
+.sign-in-wrapper.form-animation .right-panel .img {
+    transform: translateX(0);
+}
+
+.sign-in-wrapper.form-animation .left-panel{
+    pointer-events: none;
+}
+
+
+.sign-in-wrapper.form-animation .right-panel{
+    pointer-events: all;
+}
+
+.sign-in-wrapper.form-animation .sign-in-usr-admn {
+    left: 25%;
+}
+
+.sign-in-wrapper.form-animation .sign-in-usr-admn .user-sign-in-form {
+    z-index: 1;
+    opacity: 0;
+}
+
+.sign-in-wrapper.form-animation .sign-in-usr-admn .admin-sign-in-form {
+    z-index: 2;
+    opacity: 1;
+}
+
+
+
+/*  =========================================================================
+                    SIGN-IN (user & admin) styling end
+=========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============================================================
+                    CONTACT-US code
+   ============================================================= */
+   
+   
+const contact_inputs = document.querySelectorAll(".input");
+
+function focusFunc() {
+  let parent = this.parentNode;
+  parent.classList.add("focus");
+}
+
+function blurFunc() {
+    let parent = this.parentNode;
+    if (this.value == "") {
+        parent.classList.remove("focus");
+    }
+}
+
+contact_inputs.forEach((input) => {
+    input.addEventListener("focus", focusFunc);
+    input.addEventListener("blur", blurFunc);
+});
+
+
+
+
+
+/* =============================================================
+                    SIGN-IN(User and Admin) code
+   ============================================================= */
+
+
+const user_sign_in_btn = document.querySelector("#user-sign-in-btn");
+
+const admin_sign_in_btn = document.querySelector("#admin-sign-in-btn");
+
+const sign_in_wrapper = document.querySelector(".sign-in-wrapper");
+
+
+admin_sign_in_btn.addEventListener('click', () => {
+    sign_in_wrapper.classList.add("form-animation");
+});
+
+user_sign_in_btn.addEventListener('click', () => {
+    sign_in_wrapper.classList.remove("form-animation");
+});    

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Home</title>
+
+    <!-- ======================== font awesome - cdn link ======================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ======================== favicon link ======================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fevicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fevicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fevicon/favicon-16x16.png">
+    <link rel="manifest" href="./fevicon/site.webmanifest">
+
+    <link rel="stylesheet" href="./css/admin-style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    
+</head>
+<body>
+
+    <!-- ======================== start of header ======================== -->
+    <div class="header">
+        <marquee scrollamount="10" behavior="alternate">
+        
+            <table>
+                
+                <tr>
+                
+                    <th>
+                        <a href="#" class="logo">
+
+                        <i class="fa-solid fa-utensils"></i> Recipe<span>Guru</span>
+                        
+                    </a>
+                </th>
+                
+            </tr>
+            
+        </table>
+        
+    </marquee>
+    
+</div>
+<!-- ======================== end of header ======================== -->
+
+
+
+
+
+
+<!-- ======================== start of navbar ======================== -->
+
+<div class="side-bar">
+    
+    <div class="profile-img">
+    
+        <i class="fa-solid fa-user-tie" style="color: #333;"></i>
+    
+        <h5>Admin</h5>
+    
+    </div>
+    
+    <!--Profile CODE ENDED HERE-->
+    
+    <div class="item" style="background-color:orange;">
+        
+        <a href="./admin-home.html">
+        
+            <i class="fas fa-chart-line"></i>Dashborad
+        
+        </a>
+    
+    </div>
+        
+    <div class="item">
+        
+        <a>
+        
+            <i class="fas fa-users"></i>View Users
+        
+        </a>
+        
+    </div>
+
+    <div class="item">
+        
+        <a>
+        
+            <i class="fa-solid fa-utensils"></i>View Recipes
+        
+        </a>
+        
+    </div>
+
+    <div class="item">
+        
+        <a>
+        
+            <i class="fa-solid fa-comments"></i>Feedback
+        
+        </a>
+        
+    </div>
+
+    <div class="item">
+        
+        <a>
+        
+            <i class="fa-solid fa-clipboard-question"></i>Queries
+        
+        </a>
+        
+    </div>
+
+    <div class="item">
+        <a class="dropdown-toggle">
+            <i class="fas fa-tools"></i>Settings<i class="fas fa-chevron-down"></i>
+        </a>
+
+        <ul class="dropdown">
+            <li>
+                
+                <a class="item" href="change-password.html">
+                    <i class="fa-solid fa-lock"></i>Change Password
+                </a>
+
+            </li>
+
+            <li>
+                
+                <a class="item" href="../index.html">
+                    <i class="fa-solid fa-right-from-bracket"></i> Logout
+                </a>
+
+            </li>
+
+        </ul>
+        
+    </div>
+
+</div>
+
+<!-- ======================== end of navbar ======================== -->
+
+
+
+
+<!-- ======================== start of admin dashboard ======================== -->
+
+<div class="Admincontainer">
+    
+    <h3><strong>Admin Dashboard</strong></h3>
+    
+    <div class="Adminrow">
+  
+        <div class="Admincolumn">
+  
+            <h2>Total Users:</h2>
+  
+            <h2>3k+</h2>
+  
+        </div>
+
+        <div class="Admincolumn">
+  
+            <h2>Total Recipes:</h2>
+  
+            <h2>1.7k+</h2>
+  
+        </div>
+  
+        <div class="Admincolumn">
+  
+            <h2>Feedback:</h2>
+  
+            <h2>852</h2>
+  
+        </div>
+  
+        <div class="Admincolumn">
+  
+            <h2>Query:</h2>
+  
+            <h2>150</h2>
+  
+        </div>
+
+    </div>    
+
+<!-- ======================== end of admin container ======================== -->
+
+
+
+
+
+
+
+
+
+
+<!-- JavaScript Link -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+
+<!-- script for bar graph -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<canvas id="myChart" style="margin: 240px 0 0 50px;width:100%;max-width:600px"></canvas>
+
+
+<!-- script for pie chart -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<div id="myChart1" style="margin-top:-280px;margin-left:600px;width:100%; max-width:600px; height:300px;">
+</div>
+
+<script>
+var xValues = ["Users", "Recipes", "Feedbacks", "Queries"];
+var yValues = [3500, 1750, 852, 150];
+var barColors = ["#F45050", "#98EECC","#525FE1","#F86F03"];
+
+new Chart("myChart", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Our Project Live Details 2023"
+    }
+  }
+});
+
+
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+function drawChart() {
+const data = google.visualization.arrayToDataTable([
+  ['chikodi', 'Mhl'],
+  ['Belagvi',54.8],
+  ['Bangalore',48.6],
+  ['Hukkeri',44.4],
+  ['Sankeshwar',23.9],
+  ['Nidasoshi',14.5]
+]);
+
+const options = {
+  title:'Users from different Locations',
+  is3D:true
+};
+
+const chart = new google.visualization.PieChart(document.getElementById('myChart1'));
+  chart.draw(data, options);
+}
+
+</script>
+
+<script src="./js/admin-index.js"></script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,281 @@
+/* courgette font link - for website title  */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Playfair+Display:wght@400;600;800&display=swap');
+
+/* playfair display font link - for main heading */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;800&display=swap');
+
+/* nunito font link - for noraml text */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nunito+Sans:wght@400;500;600&display=swap');
+
+
+
+*{
+    font-family: 'Nunito Sans', sans-serif;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	box-sizing:border-box;
+    list-style: none;
+	border: none;
+    outline: none;
+}
+
+body
+{
+    position: relative;
+	min-height:100vh;
+	width:100%;
+}
+
+/*start of header css */
+.header
+{
+	margin-left:220px;
+	background-color:#fff;
+	padding:10px 0px;
+	text-align:center;
+    box-shadow: 0 .5rem 1.5rem rgba(8, 8, 8, 0.3);
+    z-index: 10000;
+}   
+/*end  of header css */
+
+table .logo {
+    font-family: 'Courgette', cursive;
+    font-size: 3rem;
+    color: #000;
+}
+
+table .logo span {
+    font-family: 'Courgette', cursive;
+}
+
+table .logo span {
+    color: darkorange;
+}
+
+
+/* start of sidebar*/
+.side-bar
+{
+	background-color: #fff;
+	width:220px;
+	height:100%;
+	position:fixed;
+	left:0;
+	top:0;	
+	overflow:auto;
+    box-shadow: 0 .5rem 1.5rem rgba(8, 8, 8, 0.3);
+    z-index: 5;
+}
+.side-bar .profile-img i
+{
+    font-size: 4rem;
+    margin: 2rem 0 0 5rem;
+}
+
+.side-bar .profile-img h5
+{
+    margin: 1rem 0 2rem 5rem;
+	color:#333;
+	font-size:20px;
+	
+}
+.side-bar .item a
+{
+	color: #2d2d2d;
+	padding:15px 30px;
+	display:block;
+	
+	cursor:pointer;
+	
+}
+.side-bar .item a:hover
+{
+   background: #3e3e3e;
+   color: #fff;
+   transition: 0.8s ease;
+}
+.side-bar .item i
+{
+	margin-right:20px;
+	
+}
+.side-bar .item .dropdown
+{
+
+    margin-left: 1rem;
+	background-color:#fff;
+	display:none;
+}
+.side-bar .item .dropdown li a
+{
+	display:block;
+	cursor:pointer;
+    font-size: .8rem;
+	
+    /* border: 1px solid silver; */
+}
+.side-bar .item .dropdown li i
+{
+	cursor:pointer;	
+}
+.side-bar .item .dropdown li :hover
+{
+	background: #3e3e3e;
+    color: #fff;
+	border: none;    
+	border-radius:10px;
+}
+.side-bar .item .dropdown li i:hover {
+    color: #fff;
+}
+
+.fa-chevron-down
+   {
+    position:absolute;
+    right: 0;
+    padding:2px;
+   }
+   
+/* end  of sidebar*/
+
+
+/* start of admin container */
+
+.Admincontainer{
+    margin-left:230px;
+    padding:20px;
+    z-index: 900;
+}
+
+.Admincontainer h3 {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+}
+
+.Admincolumn{
+    border:1px solid silver;
+    width:18%;
+    float:left;
+    padding:30px;
+    margin:40px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow: 0 .5rem 1.5rem rgba(8, 8, 8, 0.3);
+    background-color: rgb(254, 254, 254);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.Admincolumn:hover {
+    transform: scale(1.1);
+}
+
+.Admincolumn h2 {
+    color: #333;
+}
+
+.Admincontainer .Admincolumn h2{
+    color:rgb(10, 11, 11);
+    font-size:20px;
+}
+
+/* end of admin container */
+
+
+
+/* start of admin chage password containr */
+
+.chg-pwd {
+    width: 55%;
+    height: 70vh;
+    margin: 5rem 0 0 29rem;
+    background-color: var(--body-bg-color);
+    box-shadow: 1px 3px 17px 2px rgba(0,0,0,0.66);
+    overflow: hidden;
+}
+
+.chg-pwd .title {
+    font-size: 1.9rem;
+    font-weight: bolder;
+    width: 16rem;
+    height: 3rem;
+    margin: 3rem 0 1rem 0;
+}
+
+.chg-pwd .chg-pwd-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: .2s ease-in-out .7s;
+}
+
+.chg-pwd-form .title {
+    font-size: 1.9rem;
+    color: var(--contact-form-green-color);
+    margin-bottom: 1rem;
+}
+
+.chg-pwd-form .input-field {
+    max-width: 28rem;
+    width: 100%;
+    height: 3.5rem;
+    background-color: #fff;
+    margin: 1rem 0;
+    border: 1.5px solid silver;
+    border-radius: 5.5rem;
+
+    display: grid;
+    /* to seperate the icons and input fields */
+    grid-template-columns: 15% 85%;
+
+    padding: 0 .4rem;
+}
+
+.chg-pwd-form .input-field i{
+    text-align: center;
+    margin-top: .8rem;
+    line-height: 1.6rem;
+    color: #939292;
+    font-size: 1.2rem;
+}
+
+.chg-pwd-form .input-field input {
+    background: none;
+    line-height: 2;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #333;
+}
+
+.chg-pwd-form .input-field input::placeholder {
+    color: #939292;
+    font-weight: 500;
+}
+
+.chg-pwd .chg-pwd-form .chg-buttons .btns {
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 4.5rem;
+    cursor: pointer;
+    background-color: #81BAB4;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem;
+    transition: .5s;
+}
+
+.chg-pwd .chg-pwd-form .chg-buttons .btns:hover {
+    background-color: #fff;
+    color: #81BAB4;
+    border: 1px solid silver;
+    transform: scale(1.05);
+}
+
+
+
+/* end of admin chage password containr */
